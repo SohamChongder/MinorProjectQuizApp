@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question5a">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:text="What is the return type of Constructors?"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.028"
+        tools:layout_editor_absoluteX="13dp">
+
+        <RadioButton
+            android:id="@+id/Q5op1"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:text="int"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/Q5op2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="float"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/Q5op3"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="void"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/Q5op4"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="None of the above mentioned"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonf5"
+        android:layout_width="371dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#F65624"
+        android:text="Next Question"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="374dp"
+        android:layout_height="73dp"
+        android:text="Quit"
+        android:textSize="24sp"
+        app:iconTint="#319FF6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonf5"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="101dp"
+        android:layout_height="30dp"
+        android:textColor="#6CFBAD"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:text="Score :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#494545"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="63dp"
+        android:layout_height="35dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#494545"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.68" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
